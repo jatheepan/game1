@@ -1,0 +1,24 @@
+{
+  "name": "game3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 9000",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/matter-js": "0.19",
+    "prettier": "2.8.4",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "matter-js": "0.19.0",
+    "pathseg": "1.2.1",
+    "phaser": "3.55.2",
+    "poly-decomp": "0.3.0",
+    "svg-path-properties": "1.2.0"
+  }
+}
